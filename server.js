@@ -16,7 +16,8 @@ var con = mysql.createConnection({
   host: "myedissdb.cw5kja5p3e61.us-east-2.rds.amazonaws.com",
   user: "dinesh123",
   password: "dinotania",
-  database: "demo"
+  database: "demo",
+  port:3306
 });
 
 con.connect(function(err) {
