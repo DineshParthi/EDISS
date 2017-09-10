@@ -13,9 +13,9 @@ app.use(session({
 }))
 
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
+  host: "myedissdb.cw5kja5p3e61.us-east-2.rds.amazonaws.com",
+  user: "dinesh123",
+  password: "dinotania",
   database: "demo"
 });
 
